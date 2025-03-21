@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.product-title h1,
+.product-title h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+.quality-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.quality-card {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.quality-card:hover {
+    transform: scale(1.05);
+}
+
+.quality-card img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.quality-card p {
+    font-size: 16px;
+    color: dimgray;
+    padding: 10px;
+}
+
+/* Team Section */
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.personal-details {
+    padding: 10px;
+}

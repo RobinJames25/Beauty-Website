@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="login_files/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="login_files/signinstyle.css">
+</head>
+<body>
+    <div class="signin-container">
+        <div class="items">
+            <div class="col1 form-section">
+                <h2>Log In</h2>
+                <p class="para1">See your growth and get consulting support!</p>
+                
+                <a href="#" class="signin_google">Sign In With Google</a>
+                
+                <p class="para1">OR Sign in with Your Email</p>
+                
+                <form action="signin_check.php" method="POST">
+                                        
+                    <label for="email">Email*</label>
+                    <input type="text" name="email" class="form-control">
+
+                    <label for="password">Password*</label>
+                    <input type="password" name="password" id="password" class="form-control">
+                    
+                    <div class="remember">
+                        <label><input type="checkbox" name="remember"> Remember me</label>
+                        <a href="#" class="forgotpwd">Forgot your Password?</a>
+                    </div>
+
+                    <input type="submit" name="submit" value="Log In" id="login">
+                </form>
+
+                <p>OR</p>
+
+                <a href="http://localhost:8000/sign_up.php" class="signup_btn">Sign Up For Free</a>
+            </div>
+
+            <div class="col1 image-section">
+                <img src="login_files/download%20(1).png" class="image">
+                <img src="login_files/download.png" class="image">
+                <img src="login_files/download2.png" class="image">
+                <p class="para3">Get Your Products and Make Your Fashion</p>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
